@@ -143,7 +143,7 @@ ex.  kubeadm join [ip]:6443  - -token ~~~~~~~ \ - -discovert-token-ca-cert-hash 
 `kubeadm join [ip]:6443  - -token ~~~~~~~ \ - -discovert-token-ca-cert-hash ~~~~~~~~`
 
 ```yaml
-kubeadm join 61.252.59.21:6443 --token apntyj.u0ixppgeyylzgzoa --discovery-token-ca-cert-hash sha256:2a0470d2622abb2a0cd20aa1fad56cb2190b1a7285356b82782ccfd42bdad250
+kubeadm join IP:6443 --token ~~~~~~~~~~~~~~~ --discovery-token-ca-cert-hash sha256:~~~~~~~~~~
 ```
 
 → master node에서 발행한 토큰
